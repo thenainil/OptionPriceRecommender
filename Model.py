@@ -74,7 +74,7 @@ def longCalc(currentDay, testDay):
 	return [bestTP, bestSL, bestRank, currentPrice]
 
 
-def shortCalc(currentDay, testDay = 5):
+def shortCalc(currentDay, testDay):
 	global data, meta_data
 	Data = data
 
